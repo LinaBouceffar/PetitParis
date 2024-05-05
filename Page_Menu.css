@@ -1,0 +1,167 @@
+
+/* Style de base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e7e5df;
+}
+
+.logo {
+    display:grid;
+    float: right; /* Aligner le logo à droite */
+    max-width: 150px; /* Taille maximale du logo */
+    height: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: auto; 
+}
+
+/* Barre de navigation */
+.navbar {
+    overflow: hidden;
+    background-color: #e7e5df; /* couleur en téte  arriére*/ 
+    margin-bottom: 30px;
+    
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #5b340a;  /* couleur en téte  */ 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold; 
+
+}
+
+.navbar a:hover {
+    background-color: #413232;
+    color: rgb(232, 230, 230);    /* clique en téte  */ 
+
+}
+
+.centered-container {
+    display: inline-block;
+    background-color: #d1c5b9; /* Couleur de fond centralisée */
+    color: rgb(9, 9, 9);
+    padding: 50px; 
+}
+h1{ 
+    font-family: 'Lobster';
+    font-size: 50px; 
+    color: #5b340a; 
+    font-style:italic;
+    text-align: center;
+}
+
+
+
+h4
+{ font-family: 'Montserrat Classic';
+    font-size: 15px; 
+    color: #C25700; 
+    font-style: italic;
+    text-align: center;
+    line-height: 0.0;
+}
+
+.main {
+    background-color: #e7e5df;
+    color: rgb(247, 247, 247);
+    text-align: center;
+    padding: 10px;
+
+ 
+}
+
+.main img {
+    width: auto;
+    height: auto; 
+    max-width: 400px; /* Taille maximale du logo */
+    padding: 10px;
+   
+}
+
+
+/* Tableau des spécialités */
+table {
+    width: 20%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Ombre portée pour un effet de profondeur */
+    background-color: #e7e5df; /* Fond blanc pour contraster avec l'ombre */
+}
+
+
+table, th, td {
+    border: 2px solid #ddd;
+    
+}
+th {
+    background-color: #542D21;
+    color: #e0e0e0; 
+    font-weight: bold; 
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    width: 20%;
+    font-weight: bold;
+}
+
+
+
+/* Styles spécifiques pour les sections */
+.column {
+    flex: 33.33%;
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+}
+
+.ingredients-list details summary {
+    cursor: pointer;
+}
+h2 {
+    text-align: center; 
+}
+
+
+.commander-btn-container {
+    text-align: right; 
+    padding: 10px 25px; 
+
+}
+.commander-btn-container button {
+    background-color: #C25700; /* Couleur de fond orange */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3); /* Ombre portée */
+    cursor: pointer; /* Curseur en forme de main au survol */
+    transition: background-color 0.3s ease; /* Transition douce pour le fond */
+}
+
+.commander-btn-container button:hover {
+    background-color: #2a2623; 
+}
+.title {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+img {
+    width:100%;
+    max-width:200px;
+    height:auto;
+   
+  }
+
