@@ -11,16 +11,14 @@ Ce dépôt contient le code source du site web du restaurant Le Petit Paris. Le 
 ## Structure du Projet
 
 Le-Petit-Paris/
-│
-├── index.html        # Page d'accueil
-├── menu.html         # Page du menu du restaurant
-├── contact.html      # Page de contact avec formulaire et informations
-│
-├── css/
-│   ├── style.css     # Feuille de style principale
-│ 
-│
-└── images/           # Dossier contenant les images utilisées sur le site
+
+── index.html        # Page d'accueil
+── menu.html         # Page du menu du restaurant
+── contact.html      # Page de contact avec formulaire et informations
+
+css/
+── style.css     # Feuille de style principale
+images/           # Dossier contenant les images utilisées sur le site
 
 ## Installation
 
