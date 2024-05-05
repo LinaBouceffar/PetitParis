@@ -1,0 +1,195 @@
+ /* Styles de base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e7e5df;
+}
+.logo {
+    display:grid;
+    float: right; /* Aligner le logo à droite */
+    max-width: 150px; /* Taille maximale du logo */
+    height: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: auto; 
+}
+
+.main {
+    background-color: #e7e5df;
+    color: rgb(247, 247, 247);
+    text-align: center;
+    padding: 10px;
+    min-height: 150vh; 
+}
+
+
+.address-map {
+    display: inline-block;
+    background-color: #d1c5b9 ;
+    padding: 20px; 
+    font-family : 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px; 
+    color: #5b340a; 
+}
+
+input[type=email], textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #C25700; /* Couleur de fond orange */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3); /* Ombre portée */
+    cursor: pointer; /* Curseur en forme de main au survol */
+    transition: background-color 0.3s ease; /* Transition douce pour le fond */
+}
+button:hover {
+    background-color: #2a2623; 
+}
+
+
+/* Barre de navigation */
+.navbar {
+    overflow: hidden;
+    background-color: #e7e5df; /* couleur en téte  arriére*/ 
+    margin-bottom: 30px;
+    
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #5b340a;  /* couleur en téte  */ 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold; 
+
+}
+
+.navbar a:hover {
+    background-color: #413232;
+    color: rgb(232, 230, 230);    /* clique en téte  */ 
+
+}
+
+
+.map-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 30px; 
+    margin: 0 auto; /* Centre le conteneur sur la page */
+    max-width: 600px; 
+    width: 60%;
+    height: auto;
+     
+}
+
+.contact-form{
+    padding: 50px; 
+
+}
+
+.footer {
+    background-color: #e7e5df;
+    color: #785838;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width:  100%;
+    left: 1;
+    margin : auto;
+    margin-top: auto;
+
+      }
+
+
+.footer a {
+color: #785838;
+margin: 0 10px;
+text-decoration:solid;
+}
+
+.footer a:hover {
+    text-decoration:solid;
+}
+
+
+h1 {
+   
+    font-family: 'Lobster';
+    font-size: 50px; 
+    color: #5b340a; 
+    font-style:italic;
+    text-align: center;
+}
+
+p {
+   
+    font-family:'Montserrat Classic';
+    font-size: 15px; 
+    color: #151515; 
+    font-style:italic;
+    text-align: center;
+    font-weight: bold; 
+    line-height: 0.0;
+    
+    
+}
+
+h5 {
+   
+    font-family: 'Montserrat Classic';
+    font-size: 16px; 
+    color: #785838; 
+    font-style:italic;
+    text-align: center;
+    line-height: 0.0;
+}
+
+h2{
+    text-align:center;
+    color: #785838; 
+}
+
+h3
+ { font-family: 'Montserrat Classic';
+    font-size: 15px; 
+    color: #C25700; 
+    font-style: italic;
+    text-align: center;
+    line-height: 0.0;
+}
+
+
+.social-icons {
+    margin-top: 10px;
+   
+}
+
+.social-icons a {
+
+    background-color: #e7e5df; /* Couleur de fond orange */
+    cursor: pointer; /* Curseur en forme de main au survol */
+    transition: background-color 0.3s ease; /* Transition douce pour le fond */
+
+}
+
+
+.social-icons img {
+    width: 1.5%;
+    height: auto; /* Hauteur automatique pour maintenir le ratio */
+}
