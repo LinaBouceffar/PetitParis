@@ -28,6 +28,6 @@ Pour cloner ce projet sur votre machine locale, utilisez la commande suivante : 
 ## Auteur
 
 - **Lina Bouceffar** - Développeur initial
-- **Votre Nom** - Développeur initial
-- **Votre Nom** - Développeur initial
+- **Yasmine Bedad** - Développeur initial
+-**Malika Cerena Mouhleb** - Développeur initial
 - **Votre Nom** - Développeur initial
